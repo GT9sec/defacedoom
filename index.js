@@ -40,4 +40,5 @@ var htmlContent = `
 </body>
 </html>
 `;
-document.write(htmlContent);
+
+document.body.innerHTML = htmlContent;
